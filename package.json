@@ -6,13 +6,14 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "start": "nodemon --trace-warnings app.js"
+    "start": "node app.js",
+    "dev": "nodemon --trace-warnings app.js"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "node-fetch": "^2.6.1"
+    "express": "~4.17.1",
+    "node-fetch": "~2.6.1"
   },
   "devDependencies": {
-    "nodemon": "^2.0.7"
+    "nodemon": "~2.0.7"
   }
 }
