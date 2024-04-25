@@ -4,7 +4,6 @@
   "main": "app.js",
   "author": "chroaster",
   "license": "MIT",
-  "private": false,
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon --trace-warnings app.js"

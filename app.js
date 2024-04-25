@@ -3,9 +3,6 @@ const fetch = require('node-fetch');
 
 const app = express();
 
-// provide a port number in environment or use default
-const port = process.env.SIMPLE_CORS_PROXY_PORT || 8371;
-
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', async (req, res) => {
@@ -38,4 +35,4 @@ app.get('/', async (req, res) => {
   }
 });
 
-app.listen(port);
+app.listen();
